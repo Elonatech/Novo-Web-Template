@@ -8193,11 +8193,11 @@ h1, h2, h3, h4, h5,
     padding-bottom: .9rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: #fff;
+    color: black;
     font-weight: 400;
     opacity: 1 !important; }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-      color: #01d28e; }
+      color: #162372; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
         padding-left: 0;
@@ -8252,10 +8252,10 @@ h1, h2, h3, h4, h5,
     border: 1px solid #01d28e;
     background: #162372 !important; }
   .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-    color: #01d28e; }
+    color: #162372; }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav > .nav-item.active > a {
-      color: #1089ff; } }
+      color: #162372; } }
   .ftco-navbar-light .navbar-toggler {
     border: none;
     color: rgba(255, 255, 255, 0.5) !important;
@@ -8342,7 +8342,7 @@ h1, h2, h3, h4, h5,
 
 .hero-wrap {
   width: 100%;
-  height: 850px;
+  height: 90vh;
   position: inherit;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8359,7 +8359,7 @@ h1, h2, h3, h4, h5,
     content: '';
     opacity: .3;
     background: #000000;
-    height: 850px; }
+    height: 90vh; }
   @media (max-width: 991.98px) {
     .hero-wrap {
       height: 1150px; }
@@ -9957,7 +9957,7 @@ textarea.form-control {
 .hero-slider {
   position: relative;
   width: 100%;
-  height: 100vh; /* Adjust height as needed */
+  height: 90vh; /* Adjust height as needed */
   background-size: cover;
   background-position: center;
   animation: bg-slideshow 12s infinite linear;
@@ -9965,7 +9965,7 @@ textarea.form-control {
 
 @keyframes bg-slideshow {
   0% { background-image: url('/images/113.jpg'); }
-  30% { background-image: url('/images/bg_1.jpg'); }
+  40% { background-image: url('/images/bg_1.jpg'); }
   60% { background-image: url('/images/bg_2.jpg'); }
   90% { background-image: url('/images/car-10.jpg'); } 
   100% { background-image: url('/images/113.jpg'); }
@@ -9975,7 +9975,7 @@ textarea.form-control {
 .shuttle-slider{
     position: relative;
     width: 100%;
-    height: 100vh; /* Adjust height as needed */
+    height: 90vh; /* Adjust height as needed */
     background-size: cover;
     background-position: center;
     animation: shuttle-slideshow 12s infinite linear;
@@ -9994,4 +9994,14 @@ textarea.form-control {
 
 .shuttle-card{
   margin-left: 10px; /* Adjust this value as needed */
+}
+
+.ftco_navbar {
+  background: transparent !important; /* Make navbar transparent */
+  position: absolute;  /* Position over hero section */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background 0.3s ease-in-out;
 }
