@@ -9953,13 +9953,16 @@ textarea.form-control {
       transition: background-color 0.3s ease-in-out;
   }
   
-  /* Hero Background Slideshow */
 .hero-slider {
   position: relative;
   width: 100%;
-  height: 90vh; /* Adjust height as needed */
-  background-size: cover;
+  height: 60vh; /* Reduce the height */
+  max-height: 600px; /* Optional: Ensures a max height */
+  min-height: 400px; /* Prevents it from getting too small */
+  background-size: contain; /* Ensures full image visibility */
   background-position: center;
+  background-repeat: no-repeat;
+  
   animation: bg-slideshow 12s infinite linear;
 }
 
@@ -9969,8 +9972,8 @@ textarea.form-control {
   60% { background-image: url('/images/bg_2.jpg'); }
   90% { background-image: url('/images/car-10.jpg'); } 
   100% { background-image: url('/images/113.jpg'); }
-  /* Loops back */
 }
+
 
 .shuttle-slider{
     position: relative;
