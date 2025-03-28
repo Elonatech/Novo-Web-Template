@@ -9964,10 +9964,10 @@ textarea.form-control {
 
 @keyframes bg-slideshow {
   0% { background-image: url('/images/113.jpg'); }
-  40% { background-image: url('/images/bg_1.jpg'); }
-  60% { background-image: url('/images/erik-mclean-ZWW2SDPaC54-unsplash.jpg'); }
+  45% { background-image: url('/images/bg_1.jpg'); }
+  75% { background-image: url('/images/erik-mclean-ZWW2SDPaC54-unsplash.jpg'); }
   90% { background-image: url('/images/image_6.jpg'); } 
-  100% { background-image: url('/images/113.jpg'); }
+  125% { background-image: url('/images/113.jpg'); }
   /* Loops back */
 }
 
